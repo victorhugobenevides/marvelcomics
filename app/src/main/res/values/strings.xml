@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="main_act_layout_search_heroes_marvel">Search heroes marvel</string>
+    <string name="api_public_key_marvel">d33d1974f129d30f4cca3b0f4b56da3e</string>
+    <string name="api_private_key_marvel">36ecad17739f77994b824b3b7018c3a58a1b19d5</string>
+    <string name="url">http://gateway.marvel.com/</string>
+    <string name="title_activity_detail_char">DetailCharActivity</string>
+
+
+
+
+    <string name="title">Title</string>
+    <string name="release">Release</string>
+    <string name="director">Diretor</string>
+    <string name="genre">Genre</string>
+    <string name="runtime">Runtime</string>
+    <string name="writer">Writer</string>
+    <string name="year">Year</string>
+    <string name="rated">Rated</string>
+    <string name="actors">Actors</string>
+    <string name="plot">Plot</string>
+    <string name="language">Language</string>
+    <string name="country">Country</string>
+    <string name="awards">Awards</string>
+    <string name="metascore">Metascore</string>
+    <string name="rating">Rating</string>
+    <string name="votes">Votes</string>
+    <string name="type">Type</string>
+    <string name="response">Response</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>
