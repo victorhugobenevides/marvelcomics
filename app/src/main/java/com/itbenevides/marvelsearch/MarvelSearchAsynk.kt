@@ -30,6 +30,23 @@ open class MarvelSearchAsynk(private val query: String?, private val offset: Int
         service = retrofit.create(MarvelRetrofitInterface::class.java)
 
 
+        try {
+
+            if (query == null)
+                result = service.getAll(offset).execute().body()
+            else
+                result = service.getSearch(query, offset).execute().body()
+
+        } catch (e: Exception) {
+            resultError = e
+            result = null
+
+        }
+
+
+
+
+
     }
 
 
